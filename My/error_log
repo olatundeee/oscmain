@@ -1,0 +1,90 @@
+[28-Aug-2020 04:57:45 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 04:57:57 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 04:58:14 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 04:59:02 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 04:59:08 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 04:59:11 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 04:59:39 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 05:04:17 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 05:04:20 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 05:06:55 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 05:09:05 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/davibwfs/public_html/OVest/Vault/core/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[28-Aug-2020 09:15:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Aug-2020 09:15:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Aug-2020 09:15:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Aug-2020 09:20:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Aug-2020 09:21:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Aug-2020 09:25:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[28-Aug-2020 09:25:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'davibwfs_ovault.settings' doesn't exist in /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:64
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/Vault/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(64): PDO->prepare('select * from `...', Array)
+#1 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): Doctrine\DBAL\Driver\PDOConnection->prepare('select * from `...')
+#2 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#3 /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#4 /home/davib in /home/davibwfs/public_html/OVest/Vault/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[29-Aug-2020 04:35:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'davibwfs_vuse'@'localhost' (using password: YES) in /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#1 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#2 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#3 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySql in /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[30-Aug-2020 13:35:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'davibwfs_vuse'@'localhost' (using password: YES) in /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#1 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#2 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#3 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySql in /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[30-Aug-2020 14:36:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'davibwfs_vuse'@'localhost' (using password: YES) in /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#1 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#2 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#3 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySql in /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[31-Aug-2020 19:33:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'davibwfs_vuse'@'localhost' (using password: YES) in /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#1 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#2 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#3 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySql in /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[31-Aug-2020 19:46:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'davibwfs_vuse'@'localhost' (using password: YES) in /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/davibwfs/public_html/OVest/My/core/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#1 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#2 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'davibwfs_vuse', '3rUIFA9vrt8Y', Array)
+#3 /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySql in /home/davibwfs/public_html/OVest/My/core/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
